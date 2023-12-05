@@ -1,10 +1,10 @@
-module rubrik-client-for-prometheus
+module github.com/mattmichal/rubrik-client-for-prometheus
 
 go 1.21.1
 
 require (
 	github.com/prometheus/client_golang v1.17.0
-	github.com/rubrikinc/rubrik-client-for-prometheus v0.0.0-20211207163058-82b219e6dccf
+	github.com/mattmichal/rubrik-client-for-prometheus v0.0.0-20211207163058-82b219e6dccf
 	github.com/rubrikinc/rubrik-sdk-for-go v1.3.0
 )
 

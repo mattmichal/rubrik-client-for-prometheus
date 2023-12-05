@@ -19,11 +19,11 @@ import (
 	"os"
 	"time"
 
+	"github.com/mattmichal/rubrik-client-for-prometheus/src/golang/jobs"
+	"github.com/mattmichal/rubrik-client-for-prometheus/src/golang/livemount"
+	"github.com/mattmichal/rubrik-client-for-prometheus/src/golang/objectprotection"
+	"github.com/mattmichal/rubrik-client-for-prometheus/src/golang/stats"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/rubrikinc/rubrik-client-for-prometheus/src/golang/jobs"
-	"github.com/rubrikinc/rubrik-client-for-prometheus/src/golang/livemount"
-	"github.com/rubrikinc/rubrik-client-for-prometheus/src/golang/objectprotection"
-	"github.com/rubrikinc/rubrik-client-for-prometheus/src/golang/stats"
 	"github.com/rubrikinc/rubrik-sdk-for-go/rubrikcdm"
 )
 
